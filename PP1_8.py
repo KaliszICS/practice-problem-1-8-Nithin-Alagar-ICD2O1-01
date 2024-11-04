@@ -9,7 +9,7 @@ def q2():
   #Write Assignment code here
   num = input("Enter an integer: ")
   num = int(num)
-  bool = 0 == value
+  bool = not 0 == num
   print(bool)
 def q3():
   #Write Assignment code here
@@ -28,14 +28,14 @@ def q5():
   numb = input("Enter an integer: ")
   numb = int(numb)
   if  numb%2 == 0:
-    print(f"The integer {numb} is True."
+    print(f"The integer {numb} is True.")
   else:
       print(f"The integer {numb} is False.")
 #Do not edit code after this
 #Comment out the followwing code when running tests
 
-q1()
-q2()
-q3()
-q4()
-q5()
+#q1()
+#q2()
+#q3()
+#q4()
+#q5()
