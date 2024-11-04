@@ -21,8 +21,7 @@ def q4():
   #Write Assignment code here
   food = input("Input food: ")
   drink = input("Input drink: ")
-  result = not food == "pizza" and not drink == "pop"
-  print(result)
+  print(not(food == "pizza" and drink == "pop"))
 def q5():
   #Write Assignment code here
   numb = input("Enter an integer: ")
