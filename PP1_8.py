@@ -27,7 +27,7 @@ def q5():
   #Write Assignment code here
   numb = input("Enter an integer: ")
   numb = int(numb)
-  if  numb%2 = 0:
+  if  numb%2 == 0:
     print(f"The integer {numb} is True."
   else:
       print(f"The integer {numb} is False.")
