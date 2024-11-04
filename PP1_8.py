@@ -8,7 +8,7 @@ def q1():
 def q2():
   #Write Assignment code here
   num = input("Enter an integer: ")
-  num = int(num)
+  num = float(num)
   bool = not 0 == num
   print(bool)
 def q3():
