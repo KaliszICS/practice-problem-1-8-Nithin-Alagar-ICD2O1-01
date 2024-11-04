@@ -14,7 +14,7 @@ def q2():
 def q3():
   #Write Assignment code here
   num3 = input("Enter a number: ")
-  num3 = int(num3)
+  num3 = float(num3)
   value2 = num3 >= 0 and num3 <= 10
   print(value2)
 def q4():
